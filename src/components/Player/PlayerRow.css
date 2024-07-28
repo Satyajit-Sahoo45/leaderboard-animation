@@ -1,0 +1,43 @@
+.player-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.player-row.top-player {
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 5px rgba(255, 215, 0, 0.7);
+}
+
+.player-rank {
+  font-weight: bold;
+  text-align: center;
+  color: #555;
+  width: 30%;
+}
+
+.player-userID {
+  font-weight: bold;
+  text-align: center;
+  color: #555;
+  width: 60%;
+}
+
+.player-name {
+  text-align: center;
+  font-weight: 500;
+  width: 60%;
+  color: #666;
+}
+
+.player-score {
+  text-align: center;
+  font-weight: bold;
+  width: 30%;
+  color: #333;
+}
